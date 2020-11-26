@@ -1,4 +1,7 @@
 // Place your Sass imports here...
-body {
-    background-color: red;
-}
+/*@import "vars";
+@import "mixins";*/
+
+@import "fontawesome-scss/fontawesome";
+@import "fontawesome-scss/brands";
+@import "fontawesome-scss/screen-reader"

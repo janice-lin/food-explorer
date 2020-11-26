@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Put Web Page Title Here...</title>
+	<title>Food Explorer</title>
 
 	<!-- *** IMPORTANT *** PUT LINKS TO GOOGLE FONTS HERE -->
 	<!-- Put Google Fonts Here -->
-
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<!-- end Google Fonts -->
 
 	<!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT LINE OF CODE - IT IS IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR INSTRUCTOR FIRST IF YOU WANT TO EDIT OR DELETE THIS LINE -->
@@ -15,7 +16,81 @@
 </head>
 <body>
 <!-- Put your HTML code here... -->
-<h1>Hello it's me!...</h1>
+<div class="wrapper">
+	<header>
+		<div id="top" class="top">
+			<a href="index.html">
+				<picture>
+					<source media="(max-width: 360px)" srcset="images/small-logo.jpg">
+					<img src="images/logo.png" alt="Small Food Explorer Logo">
+				</picture>
+			</a>
+			<div class="social-links social-links-desktop">
+				<ul>
+					<li>
+						<a href="#0" class="social-link facebook">
+							<i aria-hidden="true" class="fab fa-facebook-f"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li>
+						<a href="#0" class="social-link google">
+							<i aria-hidden="true" class="fab fa-google"></i>
+							<span class="sr-only">Google</span>
+						</a>
+					</li>
+					<li>
+						<a href="#0" class="social-link twitter">
+							<i aria-hidden="true" class="fab fa-twitter"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>	
+				</ul>
+			</div>
+			<a href="#main-nav">
+				<img src="images/menu.png" alt="navigation button">
+			</a>
+		</div>
+		<nav class="main-nav" id="main-nav">
+			<ul id="nav-ul">
+				<li class="nav-li"><a class="nav-a" href="#0">Home</a></li>
+				<li class="nav-li"><a class="nav-a" href="#0">About</a></li>
+				<li class="nav-li"><a class="nav-a" href="#0">Reviews</a></li>
+				<li class="nav-li"><a class="nav-a" href="#0">Recipes</a></li>
+				<li class="nav-li"><a class="nav-a" href="#0">Contact</a></li>
+				<li class="social-link-list-item">
+					<div class="social-links social-links-mobile">
+						<ul>
+							<li>
+								<a href="#0" class="social-link facebook">
+									<i aria-hidden="true" class="fab fa-facebook-f"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li>
+								<a href="#0" class="social-link google">
+									<i aria-hidden="true" class="fab fa-google"></i>
+									<span class="sr-only">Google</span>
+								</a>
+							</li>
+							<li>
+								<a href="#0" class="social-link twitter">
+									<i aria-hidden="true" class="fab fa-twitter"></i>
+									<span class="sr-only">Twitter</span>
+								</a>
+							</li>	
+						</ul>	
+					</div>
+				</li>
+			</ul>
+		</nav>			
+	</header>	
+	<main>
+		<section>
+			
+		</section>
+	</main>
+</div>
 
 
 
