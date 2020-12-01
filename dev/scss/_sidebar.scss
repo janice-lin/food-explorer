@@ -1,0 +1,23 @@
+
+@media (min-width: $desktopSmall) {
+    main {
+        display: grid;
+        grid-template-columns: auto 230px;
+        grid-template-rows: 528px 390 auto;
+        grid-column-gap: 10px;
+        grid-template-areas: 
+            "sec1 sec3"
+            "sec2 sec3"
+            "sec2 sec3"
+    }
+    
+    .banner-images {
+        grid-area: sec1;
+    }
+    .posts {
+        grid-area: sec2;
+    }
+    .sidebar {
+        grid-area: sec3;
+    }
+}

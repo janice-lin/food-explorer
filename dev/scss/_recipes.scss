@@ -1,0 +1,29 @@
+
+.recipe-heading {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: $blueLight;
+    color: white;
+}
+.recipe-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.recipe-item img {
+    border: 2px $blueDark solid
+}
+
+.recipe-item p{
+    padding: 10px;
+    margin: 0;
+}
+
+.recipe-item:nth-child(even) {
+    background-color: white;
+}
+
+.recipe-item:nth-child(odd) {
+    background-color: rgb(233, 233, 233);
+}

@@ -1,0 +1,38 @@
+
+.cuisines-heading {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: $blueDark;
+    color: white;
+}
+
+.cuisine-list{
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.cuisine-list li {
+    line-height: 25px;
+}
+
+.cuisine-list a {
+    text-decoration: none;
+    color:black;
+}
+
+@media (min-width: $tabletSmall) {
+    .cuisine-list{
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+    }
+    
+}
+@media (min-width: $desktopSmall) {
+    .cuisine-list{
+        grid-template-columns: 150px;
+    }
+}

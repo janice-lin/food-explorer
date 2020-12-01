@@ -1,0 +1,44 @@
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner h2 {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+@media (min-width: $tabletMedium) {
+    .banner-images {
+        display: grid;
+        grid-template-columns:  repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+        grid-column-gap: 5px;
+        grid-template-areas: 
+            "one one"
+            "two three";
+    }
+    .pic-01 {
+        grid-area: one;
+    }
+    .pic-02 {
+        grid-area: two;
+    }
+    .pic-03 {
+        grid-area: three;
+    }
+}
+
+

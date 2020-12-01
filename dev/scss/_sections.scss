@@ -1,0 +1,15 @@
+
+section {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+@media (min-width: $desktopSmall) {
+    .posts {
+        margin-top: 0;
+    }
+    .cuisines {
+        margin-top: 0;
+    }
+    
+}
